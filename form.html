@@ -1,7 +1,49 @@
 <h1>Meu Formulário</h1>
 <form action="https://formspree.io/f/xovqljrq" method="post">
-<input type="text" placeholder="Digite algo..." required="required" value="São Paulo" name="nome">
-<button type="submit">Enviar</button>
+    <p>
+        <label for="">Digite seu nome</label>
+        <input type="text" placeholder="Digite algo..." required="required" value="São Paulo" name="nome">
+    </p>
+    <p>
+        <label for="">Digite sua mensagem</label><br>
+        <textarea rows="10" cols="50" required placeholder="Digite algo..." name="mensagem" id=""></textarea>
+    </p>
+        <button type="submit">Enviar</button>
+
+    <p>
+
+        <label for="">Escolha os esportes que você pratica</label><br>
+        <ul>
+            <li><input value="SIM" name="judo" type="checkbox"> Judô </li>
+            <li><input value="SIM" name="futebol" type="checkbox"> Futebol </li>
+            <li><input value="SIM" name="tênis" type="checkbox"> Tenis </li>
+        </ul>
+        <input value="SIM" name="termosDoContrato" type="checkbox">Eu aceito os termos de uso do contrato
+    </p>
+    <p>
+        <label for="">Escolha sua cor favorita</label><br>
+        <ul>
+            <li><input type="radio" name="corFavorita" value="Vermelho">Vermelho</li>
+            <li><input type="radio" name="corFavorita" value="Verde">Verde</li>
+            <li><input type="radio" name="corFavorita" value="Azul">Azul</li>
+        </ul>
+        <p>
+            <input value="SIM" name="termosDoContrato" type="checkbox">Eu aceito os termos de uso do contrato
+        </p>
+        <p>
+            <label for="">Escolha a sua cidade</label>
+            <select name="" id="">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="JP">João Pessoa</option>
+            </select>
+        </p>
+        <p>
+            <button name="dadosPF" type="submit">Enviar Dados PF</button>
+        </p>
+        
+
+    </p>
 
 </form>
 
